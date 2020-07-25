@@ -1,0 +1,38 @@
+TestNG : unit test framework
+it is TDD framework :Test drivern Development
+
+
+purpose: design test cases in systeamtic way
+open source,free
+available  in form of jar files
+
+Java Unit testing framework
+
+advantages
+1. design test cases in systeamtic way
+2. good html reports
+3. provide diffrrrnt annotation
+4, priorities -- priority=5
+5. dependency i.e. dependsOnMethods if homepage method is dependent on login method,and 
+				login method is failed then homepage method is skipped/ignored
+6.	grouping groups="test"
+7,	data provider: same test case can be run by n number of tyms with different set of data
+8 	invocationCount=10
+9 	forinfinite loop (invocationTimeOut = 2)we should avoid these 
+10 (expectedExceptions=NumberFormatException.class) === to handle exceptions in TestNG with try catch,similarly for ArrayIndexOutOfBoundException
+11 Assert.assertEquals(title, "Google");
+12 : Assert.assertTrue(b1); : for boolean ..true/false
+	or we can use Assert.assertEquals(b1, true);
+13. testNG.xml file : to run all classes together: known asrunner/template file
+14; generate  testNG.xml file automatically : right click on eclipse project > TestNG > Convert to TestNG
+we can pass parameter through testNG.xml file  : data driven approach : 
+15. advantage of testng xml file :if new teammate cime to project,then he will not go to script .Directly fromtestng.xml file
+	he can change his username/passwrd and run the test suite..similarto config.properties file 
+16. when we dot want to use data provider/testng.xml then @dataprovider annotation is used.Data is prepared in excel file
+17.
+
+
+	
+
+
+
